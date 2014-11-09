@@ -62,7 +62,7 @@ ob_start();
 	echo '</ul>';
 		?>
       </div>
-      <div style="float:left;padding:12px; position:relative; width:50%; "><img src="<?php echo $image1 ?>" width="400" style="position:absolute; top:0px; left:0px; z-index:1;"  /><span style="position:absolute; top:20px; left:30px; z-index:10; font-size:70px; color:#FFFFFF; "><?php  echo $calories; ?></span></div>
+      <div style="float:left;padding:12px; position:relative; width:50%; "><img class="round" src="<?php echo $image1 ?>" width="400" style="position:absolute; top:0px; left:0px; z-index:1;"  /><span style="position:absolute; top:20px; left:30px; z-index:10; font-size:70px; color:#FFFFFF; "><?php  echo $calories; ?></span></div>
       
       </div>
       <hr/>
@@ -78,6 +78,8 @@ ob_start();
       <script src="js/libs/handlebars/handlebars.js"></script> 
       <script src="js/libs/jquery.easing.js"></script> 
       <script src="js/waterfall.min.js"></script> 
+      <script src="js/jquery.corner.js"></script>
+      
       <script>
 $('#container').waterfall({
     itemCls: 'item',
@@ -93,6 +95,9 @@ $('#container').waterfall({
         return 'data/data.php?calories=' + <?php   echo $calories; ?>;
     }
 });
+$('.round').corner('20px');
+
+
 </script></td>
   </tr>
 </table>
