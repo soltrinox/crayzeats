@@ -24,7 +24,8 @@ button,
 .ui-btn {
 	font-size: 1em;
 	line-height: 1.3;
-	 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif /*{global-font-family}*/;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif /*{global-font-family}*/;
+	text-align: center;
 }
 legend,
 .ui-input-text input,
@@ -1247,4 +1248,17 @@ body {
 
 .overtext{
  text-shadow: 2px 2px 2px #999; 	
+}
+
+.topback{
+	  background: url(http://www.crayzeats.com/images/junk-food-eating.jpg) !important;
+    background-attachment:fixed;
+	background-size:cover;
+	height:150px;
+	width:100%;
+}
+
+.jams{
+font-family:'Raleway',sans-serif;
+font-size:80px;font-style:normal;line-height:normal;font-weight:lighter;font-variant:normal;text-transform:lowercase;text-decoration:none;	
 }

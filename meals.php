@@ -17,7 +17,8 @@
 	<body>
 		<div data-role="page" data-theme="a">
 			<div data-role="header" data-position="inline">
-				<h1>crayZeats</h1>
+            <div  style="height:150px; text-align:center;background:url(images/junk-food-eating.jpg)">
+				<h1 style="margin-top:0px; padding-top:10px;font-family:'Raleway',sans-serif;font-size:70px;font-style:normal;line-height:normal;font-weight:lighter;font-variant:normal;text-transform:lowercase;text-decoration:none;">crayZeats</h1></div>
 				<div data-role="navbar">
 					<ul>
 						<li><a href="index.html" data-icon="home" class="ui-btn-active">Search</a></li>
@@ -63,7 +64,7 @@
 	$ingred1 = $obj2["ingredients"];
 	
 	?>
-    <span style="font-size:40px; color:#FFFFFF" class="overtext">
+    <span style="font-family:'Raleway',sans-serif;font-size:40px;font-style:normal;line-height:normal;font-weight:lighter;font-variant:normal;text-transform:lowercase;text-decoration:none; color:#FFFFFF" >
     <?php
 	echo '' . $recipie_found . '';	
 	
