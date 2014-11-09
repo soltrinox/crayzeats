@@ -1,29 +1,43 @@
 <!doctype html>
-<html lang="en"><head>
-	<meta charset="UTF-8">
-	
-	<title>jQuery Smooth Animated Search Field Freebie</title>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>jQuery Mobile Bootstrap Theme</title>
+		<link rel="stylesheet" href="themes/Bootstrap.css">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile.structure-1.4.0.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+        <script>
+        
 
-	<link rel="stylesheet" href="css/style.css?v=2">
-    
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script src="js/jquery.color.js"></script>
-	<script src="js/script.js"></script>
+        </script>
+	</head>
+	<body>
+		<div data-role="page" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>crayZeats</h1>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" data-icon="home" class="ui-btn-active">Search</a></li>
+						<li><a href="buttons.html" data-icon="star">Business</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="content" data-theme="a">
 
-</head>
-<body>
-	<div id="container">
-
-		<div id="main">
-            <form id="searchForm">
-                <fieldset>
-                    <div class="input">
-                        <input type="text" name="s" id="s" value="Enter your search" />
-                    </div>
-                    <input type="submit" id="searchSubmit" value="" />
-                </fieldset>
-            </form>
+				<h2>What will it take to &quot;burn off&quot; that last meal?                </h2>
+				<form method="get" action="meals.php" data-ajax="false">
+                <div data-role="fieldcontain">
+						<label for="search">Search by Meal:</label>
+						<br>
+						<input type="search" name="s" id="s" value=""  />
+				  </div>
+                  <input type="submit" value="Search " /> 
+             
+</form>
+		  </div>
 		</div>
-
-	</div></body>
+	</body>
 </html>
