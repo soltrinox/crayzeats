@@ -12,7 +12,9 @@
         <link rel="stylesheet" href="css/style.css?v=2">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script src="js/jquery.color.js"></script>
-
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "b803e4a4-44f1-450a-8f3a-3f98631da468", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 	</head>
 	<body>
 		<div data-role="page" data-theme="a">
@@ -34,8 +36,7 @@
 <tr><td align="center">
 				<form method="get" action="meals.php">
                 <div data-role="fieldcontain">
-						<label for="search">Search by Meal:</label>
-						<input type="search" name="s" id="s" value=""  />
+                  <input type="search" name="s" id="s" value=""  />
 				  </div>
 </form>
 </td></tr>
@@ -69,16 +70,16 @@
 	echo '' . $recipie_found . '';	
 	
 	?></span>
-    <div style="padding:2px; position:relative; width:50%; height:400px "><img class="round" src="<?php echo $image1 ?>" width="300" height="350" style="position:absolute; top:0px; left:0px; z-index:1;"  /><span class="overtext" style="position:absolute; top:20px; left:30px; z-index:10; font-size:70px; color:#FFFFFF; "><?php  echo $calories; ?></span></div>
+    <div style="padding:2px; position:relative; width:100%; height:400px "><img class="round" src="<?php echo $image1 ?>" width="300" height="350" style="position:absolute; top:0px; left:0px; z-index:1;"  /><span class="overtext" style="position:absolute; top:20px; left:30px; z-index:10; font-size:70px; color:#FFFFFF; "><?php  echo $calories; ?></span></div>
     <div style="clear:both; width:100%; height:auto;">
 
       
-           <div  style="padding:2px; font-size: 12px; width:40%"> 
+           <div  style="padding:2px; font-size: 12px; width:100%"> 
     <?php
 	echo '<h3>Ingredients</h3>';	
 	echo '<ul>';
 	foreach($ingred1 as $kv){
-		echo '<li>' . $kv . '</li>';
+		echo '<li style="color:#FFFFFF;font-size:18px;">' . $kv . '</li>';
 	}
 	echo '</ul>';
 		?>

@@ -1237,7 +1237,7 @@ button[disabled],
 /* ------------------   */
 
 body {
-    background: url(http://crayzeats.com/images/002.jpg) !important;
+    background:#666 !important;
     background-attachment:fixed;
 	background-size:cover;
 }

@@ -229,12 +229,16 @@ $res['line'] = "Kissing for " . $times . " hours";
  $res['img'] = "activity/36.jpg";
  $xxq[] = $res;
 
+shuffle($xxq);
+
 $i = 0;
 while($i < count($xxq)){
 	$ttw = $xxq[$i];
 ?>
     <div class="item" style="position:relative; ">
-        <img class="round" src="<?php echo $ttw['img'];  ?>" width="192" height="288"><div style="position:absolute; top:91px; left:10px; color:#FFFFFF; width: 164px; height: 129px;"><span style="font-size:76px" class="overtext"><?php echo $ttw['cals']; ?></span><br/><br/><span style="font-size:16px" class="overtext"><?php echo $ttw['line']; ?></span></div>
+        <img class="round" src="<?php echo $ttw['img'];  ?>" width="230" height="290"><div style="position:absolute; top:91px; left:10px; color:#FFFFFF; width: 164px; height: 129px;"><span style="font-size:76px" class="overtext"><?php echo $ttw['cals']; ?></span><br/><br/><span style="font-size:16px" class="overtext"><?php echo $ttw['line']; ?></span>
+        </div>
+
     </div>
 <?php
 $i++;
