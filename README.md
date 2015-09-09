@@ -1,4 +1,5 @@
 # Bootstrap jQuery Mobile Theme
+EDITS READY
 
 A jQuery Mobile theme based on Bootstrap.
 
